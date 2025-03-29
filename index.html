@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="neon-text">TIC TAC TOE</h1>
+    
+    <div class="game-controls">
+      <div class="scoreboard">
+        <div class="score" id="player-x-score">X: 0</div>
+        <div class="score" id="player-o-score">O: 0</div>
+      </div>
+      <button id="ai-toggle" class="neon-button">AI: Easy</button>
+      <button id="reset" class="neon-button">Reset Game</button>
+    </div>
+    
+    <div class="board" id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+    
+    <p id="status" class="neon-text">Player X's turn</p>
+  </div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
